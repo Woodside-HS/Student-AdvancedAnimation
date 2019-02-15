@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Man Running with spritesheet</title>
+    <script src = "manRunning.js"></script>
+  </head>
+
+    <body>
+        <canvas width="1000" height="600" id="cnv"></canvas>
+        <script>
+            var cnv = document.getElementById("cnv");
+            cnv.style.border = "2px solid black";
+            var ctx = cnv.getContext("2d");
+            var sprites = new Image();
+            sprites.src = "manRunning.png";
+            sprites.addEventListener("load", function(){
+                // get the sprite coordinates from the jsondata
+                var sprite = {
+                    x: jsondata["frames"]["man0000"]["frame"]["x"],
+                    y: jsondata["frames"]["man0000"]["frame"]["y"],
+                    w: jsondata["frames"]["man0000"]["frame"]["w"],
+                    h: jsondata["frames"]["man0000"]["frame"]["h"]
+                };
+                // draw the sprite on the right of the canvas scaled one half
+                // void ctx.drawImage(image, dx, dy);
+                // void ctx.drawImage(image, dx, dy, dWidth, dHeight);
+                // void ctx.drawImage(image, sx, sy, sWidth, sHeight, dx, dy, dWidth, dHeight);
+                ctx.drawImage(this, sprite.x,sprite.y,
+                    sprite.w,sprite.h,
+                    cnv.width-sprite.w/2-10,10,
+                    sprite.w/2,sprite.h/2); // scaled one half
+                ctx.save();
+                ctx.translate(cnv.width,0);
+                ctx.scale(-1,1);    // flip the sprite
+                // draw the flipped sprite on the left of the canvas scaled one half
+                ctx.drawImage(this, sprite.x,sprite.y,
+                    sprite.w,sprite.h,
+                    cnv.width-sprite.w/2-10,10,
+                    sprite.w/2,sprite.h/2); // scaled one half
+                ctx.restore();
+            })
+
+        </script>
+    </body>
+</html>

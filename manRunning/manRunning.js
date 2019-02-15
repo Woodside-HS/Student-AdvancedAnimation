@@ -1,0 +1,107 @@
+var jsondata = {"frames": {
+
+"man0000":
+{
+	"frame": {"x":1,"y":1,"w":150,"h":244},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":0,"w":188,"h":249},
+	"sourceSize": {"w":188,"h":249}
+},
+"man0001":
+{
+	"frame": {"x":152,"y":1,"w":150,"h":231},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":0,"w":188,"h":249},
+	"sourceSize": {"w":188,"h":249}
+},
+"man0002":
+{
+	"frame": {"x":303,"y":1,"w":181,"h":207},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":188,"h":249},
+	"sourceSize": {"w":188,"h":249}
+},
+"man0003":
+{
+	"frame": {"x":1,"y":246,"w":177,"h":231},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":188,"h":249},
+	"sourceSize": {"w":188,"h":249}
+},
+"man0004":
+{
+	"frame": {"x":179,"y":246,"w":170,"h":249},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":188,"h":249},
+	"sourceSize": {"w":188,"h":249}
+},
+"man0005":
+{
+	"frame": {"x":350,"y":246,"w":151,"h":243},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":0,"w":188,"h":249},
+	"sourceSize": {"w":188,"h":249}
+},
+"man0006":
+{
+	"frame": {"x":1,"y":496,"w":150,"h":245},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":0,"w":188,"h":249},
+	"sourceSize": {"w":188,"h":249}
+},
+"man0007":
+{
+	"frame": {"x":152,"y":496,"w":150,"h":236},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":0,"w":188,"h":249},
+	"sourceSize": {"w":188,"h":249}
+},
+"man0008":
+{
+	"frame": {"x":303,"y":496,"w":150,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":0,"w":188,"h":249},
+	"sourceSize": {"w":188,"h":249}
+},
+"man0009":
+{
+	"frame": {"x":1,"y":742,"w":150,"h":235},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":0,"w":188,"h":249},
+	"sourceSize": {"w":188,"h":249}
+},
+"man0010":
+{
+	"frame": {"x":152,"y":742,"w":150,"h":244},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":0,"w":188,"h":249},
+	"sourceSize": {"w":188,"h":249}
+},
+"man0011":
+{
+	"frame": {"x":303,"y":742,"w":150,"h":249},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":0,"w":188,"h":249},
+	"sourceSize": {"w":188,"h":249}
+}},
+"meta": {
+	"app": "Adobe Flash CS6",
+	"version": "12.0.2.529",
+	"image": "manRunning.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "1"
+}
+}
